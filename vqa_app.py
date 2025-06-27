@@ -4,6 +4,16 @@ import os
 from dotenv import load_dotenv
 import base64
 
+st.set_page_config(page_title="VQA Gemini App", page_icon="🧠", layout="centered")
+st.title("🧠 Visual Question Answering App with Gemini")
+st.markdown("""
+This app allows you to upload an image and ask any question about it using **Google Gemini 1.5** Vision API.
+
+- Powered by `Google Generative AI`
+- Built with `Streamlit`
+- Created by [Your Name](https://github.com/physics-vibes15/vqa-gemini-app)
+""")
+
 # Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
