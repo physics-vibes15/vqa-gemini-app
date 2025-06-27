@@ -13,6 +13,10 @@ This app allows you to upload an image and ask any question about it using **Goo
 - Built with `Streamlit`
 - Created by [Your Name](https://github.com/physics-vibes15/vqa-gemini-app)
 """)
+st.markdown("""
+[![GitHub Repo stars](https://img.shields.io/github/stars/physics-vibes15/vqa-gemini-app?style=social)](https://github.com/physics-vibes15/vqa-gemini-app)
+""")
+
 
 # Load environment variables
 load_dotenv()
