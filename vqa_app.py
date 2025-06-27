@@ -53,3 +53,9 @@ if uploaded_file:
         except Exception as e:
             st.error(f"❌ Error: {e}")
 
+st.markdown("""---""")
+st.markdown(
+    "Made with ❤️ using [Google Gemini](https://makersuite.google.com/app) "
+    "and [Streamlit](https://streamlit.io)"
+)
+
