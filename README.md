@@ -14,7 +14,7 @@ This project is a Visual Question Answering (VQA) app built using **Streamlit** 
 
 ## 🌐 Live Demo
 
-[View the deployed app](your-streamlit-cloud-link-here)
+[View the deployed app](https://vq-gemini-app.streamlit.app/)
 
 ## 📸 Screenshots
 
